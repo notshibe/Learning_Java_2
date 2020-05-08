@@ -37,6 +37,7 @@ public class methods {
         return area;
 
         //return 0; statement unreachable because first return is end of code in function
+        //deliberate redundant variable to show how code works
     }
 }
 
