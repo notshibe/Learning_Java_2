@@ -10,5 +10,20 @@ public class Scratch_pad_3 {
         String fullVehicleDetails = vehicle + " - " + make + " : " + model;
 
         System.out.println(fullVehicleDetails); //prints this to the console
+
+        String upper = "CRAZY MAXIMUS!";
+        String lower = upper.toLowerCase();
+
+        System.out.println(upper + " " + lower);
+
+        int accountBalance = 500;
+
+        String printBalance = String.format("Your account balance is %d",accountBalance); //%d is replaced with integer after comma, %s would be replaced with string after comma
+
+        System.out.println(printBalance);
+
+
+
     }
 }
+
