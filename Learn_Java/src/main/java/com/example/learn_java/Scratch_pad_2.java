@@ -7,6 +7,9 @@ public class Scratch_pad_2 {
         int homeRuns = 55;
         float bankBalance = 100.44f;
 
-        System.out.println(name + " has " + homeRuns + " home runs!");
+        float finalBalance = bankBalance - 50;
+
+        System.out.println(name + " has " + finalBalance + " in his account");
+
     }
 }
