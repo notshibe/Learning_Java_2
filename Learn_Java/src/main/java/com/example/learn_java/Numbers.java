@@ -27,7 +27,7 @@ public class Numbers {
         int modulo = 20 % 3;
         System.out.println(modulo);
 
-        float bankBalance = 432.23; //float allows fewer dp than a double, 32 bits of storage
+        //float bankBalance = 432.23; //float allows fewer dp than a double, 32 bits of storage
         double thisIsADouble = 5678.52345276; //64 bits of storage, more dp
     }
 }
