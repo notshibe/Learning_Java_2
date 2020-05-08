@@ -23,16 +23,13 @@ public class methods {
     }
 
     //inside brackets are arguments/variables to feed function
-    //public means accessible by all classes and other packages
-    //protected means accessible only by classes in same package
     //maths operation needs to be contained in brackets, else will just append later no's
-    //void means we can only use the output once, not generate variables for future use
+    //void means we can only use the output once, not generate variables for future use, and no return statement needed
     public static void printArea51(int length, int width){
         System.out.println("Area: " + (length * width + 1));
     }
 
     //int means the output is an integer that we can use as a variable for future calculations
-    //private means only operations inside this class can access this variable
     private static int getArea(int length, int width) {
 
         int area = length * width;
@@ -42,3 +39,8 @@ public class methods {
         //return 0; statement unreachable because first return is end of code in function
     }
 }
+
+//FUNCTION (java calls these methods) TYPES
+//public means accessible by all classes and other packages
+//protected means accessible only by classes in same package
+//private means only operations inside this class can access this variable
