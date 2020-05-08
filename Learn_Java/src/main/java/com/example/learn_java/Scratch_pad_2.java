@@ -11,5 +11,6 @@ public class Scratch_pad_2 {
 
         System.out.println(name + " has " + finalBalance + " in his account");
 
+
     }
 }
