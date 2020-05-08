@@ -19,12 +19,33 @@ public class Boolean {
         } else {
             System.out.println("You don't have enough money, get job.");
         }
-        int degrees = 61;
+        int degrees = 58;
 
         if (degrees >= 70) {
             System.out.println("it hot yo..");
+            //&& and - both clauses have to be true
+            // || is or
         } else if (degrees < 70 && degrees >= 59) {
             System.out.println("You might need a sweater");
+            //else has to be the last one in an elseif chain
+        } else {
+            System.out.println("Put on a heavy coat");
         }
+
+        boolean firstTimeCustomer = false;
+        boolean isExecutiveMember = true;
+
+        if(firstTimeCustomer == true || isExecutiveMember == true) {
+            System.out.println("You got a 10% discount");
+        }
+
+        //shortcuts to true
+        if(firstTimeCustomer || isExecutiveMember) {
+            System.out.println("You got a 10% discount");
+        }
+
+        //if (true == true || false == true && false == true) will not be called because works left to right
+
+
     }
 }
