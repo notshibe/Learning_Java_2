@@ -16,6 +16,16 @@ public class Numbers {
         System.out.println(sum);
         System.out.println(num1 + num2);
 
+        int difference = 100 - 20;
+        int product = 22 * 5;
+        int divide = 15 / 5;
+
+        System.out.println(difference);
+        System.out.println(product);
+        System.out.println(divide);
+
+        int modulo = 20 % 3;
+        System.out.println(modulo);
 
     }
 }
