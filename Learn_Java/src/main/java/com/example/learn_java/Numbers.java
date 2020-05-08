@@ -24,6 +24,7 @@ public class Numbers {
         System.out.println(product);
         System.out.println(divide);
 
+        //gives remainder
         int modulo = 20 % 3;
         System.out.println(modulo);
 
@@ -31,7 +32,18 @@ public class Numbers {
         double thisIsADouble = 5678.52345276; //64 bits of storage, more dp
 
         //test for github
+        //commit and push test for github
 
+        //For big big big whole numbers up to ~2billion. AS will notify if too large
+        long donaldTrumpsBankAccount = 534453452;
+
+        System.out.println(donaldTrumpsBankAccount);
+
+        int myInt = 550;
+
+        String intStr = Integer.toString(myInt);
+
+        System.out.println(intStr);
 
     }
 }
